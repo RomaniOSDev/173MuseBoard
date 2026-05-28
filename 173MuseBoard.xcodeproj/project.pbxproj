@@ -3,33 +3,179 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		308F39332FC8E7BD00CBC499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 308F39292FC8E7BD00CBC499 /* Assets.xcassets */; };
+		308F39352FC8E7BD00CBC499 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308F392D2FC8E7BD00CBC499 /* LaunchScreen.storyboard */; };
+		308F39362FC8E7BD00CBC499 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308F392F2FC8E7BD00CBC499 /* Main.storyboard */; };
+		308F39372FC8E7BD00CBC499 /* HomeWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38CD2FC8E7BD00CBC499 /* HomeWidgets.swift */; };
+		308F39382FC8E7BD00CBC499 /* BoardCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38CF2FC8E7BD00CBC499 /* BoardCard.swift */; };
+		308F39392FC8E7BD00CBC499 /* CollectionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38D02FC8E7BD00CBC499 /* CollectionCard.swift */; };
+		308F393A2FC8E7BD00CBC499 /* FilterChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38D12FC8E7BD00CBC499 /* FilterChip.swift */; };
+		308F393B2FC8E7BD00CBC499 /* ImageEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38D22FC8E7BD00CBC499 /* ImageEditorView.swift */; };
+		308F393C2FC8E7BD00CBC499 /* InsightCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38D32FC8E7BD00CBC499 /* InsightCard.swift */; };
+		308F393D2FC8E7BD00CBC499 /* InsightCardPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38D42FC8E7BD00CBC499 /* InsightCardPlaceholder.swift */; };
+		308F393E2FC8E7BD00CBC499 /* MultiPhotoSourceSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38D52FC8E7BD00CBC499 /* MultiPhotoSourceSection.swift */; };
+		308F393F2FC8E7BD00CBC499 /* MuseButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38D62FC8E7BD00CBC499 /* MuseButtons.swift */; };
+		308F39402FC8E7BD00CBC499 /* MuseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38D72FC8E7BD00CBC499 /* MuseCard.swift */; };
+		308F39412FC8E7BD00CBC499 /* MuseEmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38D82FC8E7BD00CBC499 /* MuseEmptyState.swift */; };
+		308F39422FC8E7BD00CBC499 /* MuseListImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38D92FC8E7BD00CBC499 /* MuseListImageCell.swift */; };
+		308F39432FC8E7BD00CBC499 /* MusePhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38DA2FC8E7BD00CBC499 /* MusePhotoView.swift */; };
+		308F39442FC8E7BD00CBC499 /* MuseSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38DB2FC8E7BD00CBC499 /* MuseSearchBar.swift */; };
+		308F39452FC8E7BD00CBC499 /* MuseSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38DC2FC8E7BD00CBC499 /* MuseSectionHeader.swift */; };
+		308F39462FC8E7BD00CBC499 /* MuseStyleTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38DD2FC8E7BD00CBC499 /* MuseStyleTag.swift */; };
+		308F39472FC8E7BD00CBC499 /* PhotoSourceSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38DE2FC8E7BD00CBC499 /* PhotoSourceSection.swift */; };
+		308F39482FC8E7BD00CBC499 /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38DF2FC8E7BD00CBC499 /* StatCard.swift */; };
+		308F39492FC8E7BD00CBC499 /* TagAutocompleteField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38E02FC8E7BD00CBC499 /* TagAutocompleteField.swift */; };
+		308F394A2FC8E7BD00CBC499 /* MuseDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38E22FC8E7BD00CBC499 /* MuseDesign.swift */; };
+		308F394B2FC8E7BD00CBC499 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38E42FC8E7BD00CBC499 /* Color+Hex.swift */; };
+		308F394C2FC8E7BD00CBC499 /* Color+Muse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38E52FC8E7BD00CBC499 /* Color+Muse.swift */; };
+		308F394D2FC8E7BD00CBC499 /* View+CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38E62FC8E7BD00CBC499 /* View+CornerRadius.swift */; };
+		308F394E2FC8E7BD00CBC499 /* CalendarGateEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38E82FC8E7BD00CBC499 /* CalendarGateEvaluator.swift */; };
+		308F394F2FC8E7BD00CBC499 /* DeferredLaunchCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38E92FC8E7BD00CBC499 /* DeferredLaunchCanvas.swift */; };
+		308F39502FC8E7BD00CBC499 /* LaunchDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38EA2FC8E7BD00CBC499 /* LaunchDestination.swift */; };
+		308F39512FC8E7BD00CBC499 /* LaunchFlowDebugOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38EB2FC8E7BD00CBC499 /* LaunchFlowDebugOptions.swift */; };
+		308F39522FC8E7BD00CBC499 /* LaunchFlowLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38EC2FC8E7BD00CBC499 /* LaunchFlowLogger.swift */; };
+		308F39532FC8E7BD00CBC499 /* LaunchFlowResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38ED2FC8E7BD00CBC499 /* LaunchFlowResolver.swift */; };
+		308F39542FC8E7BD00CBC499 /* LaunchFlowSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38EE2FC8E7BD00CBC499 /* LaunchFlowSecrets.swift */; };
+		308F39552FC8E7BD00CBC499 /* LaunchSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38EF2FC8E7BD00CBC499 /* LaunchSessionStore.swift */; };
+		308F39562FC8E7BD00CBC499 /* LaunchStagingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38F02FC8E7BD00CBC499 /* LaunchStagingState.swift */; };
+		308F39572FC8E7BD00CBC499 /* RemoteEntryProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38F12FC8E7BD00CBC499 /* RemoteEntryProbe.swift */; };
+		308F39582FC8E7BD00CBC499 /* RemoteEntryURLComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38F22FC8E7BD00CBC499 /* RemoteEntryURLComposer.swift */; };
+		308F39592FC8E7BD00CBC499 /* RootWindowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38F32FC8E7BD00CBC499 /* RootWindowPresenter.swift */; };
+		308F395A2FC8E7BD00CBC499 /* WebDocumentSurfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38F42FC8E7BD00CBC499 /* WebDocumentSurfaceView.swift */; };
+		308F395B2FC8E7BD00CBC499 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38F62FC8E7BD00CBC499 /* Board.swift */; };
+		308F395C2FC8E7BD00CBC499 /* BoardTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38F72FC8E7BD00CBC499 /* BoardTemplate.swift */; };
+		308F395D2FC8E7BD00CBC499 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38F82FC8E7BD00CBC499 /* Collection.swift */; };
+		308F395E2FC8E7BD00CBC499 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38F92FC8E7BD00CBC499 /* Mood.swift */; };
+		308F395F2FC8E7BD00CBC499 /* MuseImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38FA2FC8E7BD00CBC499 /* MuseImage.swift */; };
+		308F39602FC8E7BD00CBC499 /* Occasion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38FB2FC8E7BD00CBC499 /* Occasion.swift */; };
+		308F39612FC8E7BD00CBC499 /* PersonalNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38FC2FC8E7BD00CBC499 /* PersonalNote.swift */; };
+		308F39622FC8E7BD00CBC499 /* StyleCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38FD2FC8E7BD00CBC499 /* StyleCategory.swift */; };
+		308F39632FC8E7BD00CBC499 /* StyleInsight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F38FE2FC8E7BD00CBC499 /* StyleInsight.swift */; };
+		308F39642FC8E7BD00CBC499 /* AppMarketingCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F39002FC8E7BD00CBC499 /* AppMarketingCopy.swift */; };
+		308F39652FC8E7BD00CBC499 /* DateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F39022FC8E7BD00CBC499 /* DateFormatting.swift */; };
+		308F39662FC8E7BD00CBC499 /* ImageColorExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F39032FC8E7BD00CBC499 /* ImageColorExtractor.swift */; };
+		308F39672FC8E7BD00CBC499 /* MoodBoardRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F39042FC8E7BD00CBC499 /* MoodBoardRenderer.swift */; };
+		308F39682FC8E7BD00CBC499 /* MuseAppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F39052FC8E7BD00CBC499 /* MuseAppLinks.swift */; };
+		308F39692FC8E7BD00CBC499 /* MuseDemoContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F39062FC8E7BD00CBC499 /* MuseDemoContent.swift */; };
+		308F396A2FC8E7BD00CBC499 /* MuseImageStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F39072FC8E7BD00CBC499 /* MuseImageStorage.swift */; };
+		308F396B2FC8E7BD00CBC499 /* PhotoLibrarySaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F39082FC8E7BD00CBC499 /* PhotoLibrarySaver.swift */; };
+		308F396C2FC8E7BD00CBC499 /* UIImage+Editing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F39092FC8E7BD00CBC499 /* UIImage+Editing.swift */; };
+		308F396D2FC8E7BD00CBC499 /* FeedFilterTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F390B2FC8E7BD00CBC499 /* FeedFilterTypes.swift */; };
+		308F396E2FC8E7BD00CBC499 /* MuseBoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F390C2FC8E7BD00CBC499 /* MuseBoardViewModel.swift */; };
+		308F396F2FC8E7BD00CBC499 /* AddBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F390E2FC8E7BD00CBC499 /* AddBoardView.swift */; };
+		308F39702FC8E7BD00CBC499 /* BoardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F390F2FC8E7BD00CBC499 /* BoardDetailView.swift */; };
+		308F39712FC8E7BD00CBC499 /* BoardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F39102FC8E7BD00CBC499 /* BoardsView.swift */; };
+		308F39722FC8E7BD00CBC499 /* AddCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F39122FC8E7BD00CBC499 /* AddCollectionView.swift */; };
+		308F39732FC8E7BD00CBC499 /* CollectionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F39132FC8E7BD00CBC499 /* CollectionDetailView.swift */; };
+		308F39742FC8E7BD00CBC499 /* CollectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F39142FC8E7BD00CBC499 /* CollectionsView.swift */; };
+		308F39752FC8E7BD00CBC499 /* AddImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F39162FC8E7BD00CBC499 /* AddImageView.swift */; };
+		308F39762FC8E7BD00CBC499 /* CompareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F39172FC8E7BD00CBC499 /* CompareView.swift */; };
+		308F39772FC8E7BD00CBC499 /* EditImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F39182FC8E7BD00CBC499 /* EditImageView.swift */; };
+		308F39782FC8E7BD00CBC499 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F39192FC8E7BD00CBC499 /* FeedView.swift */; };
+		308F39792FC8E7BD00CBC499 /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F391A2FC8E7BD00CBC499 /* ImageDetailView.swift */; };
+		308F397A2FC8E7BD00CBC499 /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F391B2FC8E7BD00CBC499 /* SavedView.swift */; };
+		308F397B2FC8E7BD00CBC499 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F391D2FC8E7BD00CBC499 /* HomeView.swift */; };
+		308F397C2FC8E7BD00CBC499 /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F391F2FC8E7BD00CBC499 /* InsightsView.swift */; };
+		308F397D2FC8E7BD00CBC499 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F39212FC8E7BD00CBC499 /* OnboardingView.swift */; };
+		308F397E2FC8E7BD00CBC499 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F39232FC8E7BD00CBC499 /* SettingsView.swift */; };
+		308F397F2FC8E7BD00CBC499 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F39252FC8E7BD00CBC499 /* StatsView.swift */; };
+		308F39802FC8E7BD00CBC499 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F39282FC8E7BD00CBC499 /* AppDelegate.swift */; };
+		308F39812FC8E7BD00CBC499 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F392A2FC8E7BD00CBC499 /* ContentView.swift */; };
+		308F39822FC8E7BD00CBC499 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F39302FC8E7BD00CBC499 /* SceneDelegate.swift */; };
+		308F39832FC8E7BD00CBC499 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F39312FC8E7BD00CBC499 /* ViewController.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		30059BCD2FC478AD007F3C69 /* 173MuseBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 173MuseBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		308F38CD2FC8E7BD00CBC499 /* HomeWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWidgets.swift; sourceTree = "<group>"; };
+		308F38CF2FC8E7BD00CBC499 /* BoardCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCard.swift; sourceTree = "<group>"; };
+		308F38D02FC8E7BD00CBC499 /* CollectionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCard.swift; sourceTree = "<group>"; };
+		308F38D12FC8E7BD00CBC499 /* FilterChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterChip.swift; sourceTree = "<group>"; };
+		308F38D22FC8E7BD00CBC499 /* ImageEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditorView.swift; sourceTree = "<group>"; };
+		308F38D32FC8E7BD00CBC499 /* InsightCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightCard.swift; sourceTree = "<group>"; };
+		308F38D42FC8E7BD00CBC499 /* InsightCardPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightCardPlaceholder.swift; sourceTree = "<group>"; };
+		308F38D52FC8E7BD00CBC499 /* MultiPhotoSourceSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPhotoSourceSection.swift; sourceTree = "<group>"; };
+		308F38D62FC8E7BD00CBC499 /* MuseButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseButtons.swift; sourceTree = "<group>"; };
+		308F38D72FC8E7BD00CBC499 /* MuseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseCard.swift; sourceTree = "<group>"; };
+		308F38D82FC8E7BD00CBC499 /* MuseEmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseEmptyState.swift; sourceTree = "<group>"; };
+		308F38D92FC8E7BD00CBC499 /* MuseListImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseListImageCell.swift; sourceTree = "<group>"; };
+		308F38DA2FC8E7BD00CBC499 /* MusePhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusePhotoView.swift; sourceTree = "<group>"; };
+		308F38DB2FC8E7BD00CBC499 /* MuseSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseSearchBar.swift; sourceTree = "<group>"; };
+		308F38DC2FC8E7BD00CBC499 /* MuseSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseSectionHeader.swift; sourceTree = "<group>"; };
+		308F38DD2FC8E7BD00CBC499 /* MuseStyleTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseStyleTag.swift; sourceTree = "<group>"; };
+		308F38DE2FC8E7BD00CBC499 /* PhotoSourceSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSourceSection.swift; sourceTree = "<group>"; };
+		308F38DF2FC8E7BD00CBC499 /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
+		308F38E02FC8E7BD00CBC499 /* TagAutocompleteField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagAutocompleteField.swift; sourceTree = "<group>"; };
+		308F38E22FC8E7BD00CBC499 /* MuseDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseDesign.swift; sourceTree = "<group>"; };
+		308F38E42FC8E7BD00CBC499 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		308F38E52FC8E7BD00CBC499 /* Color+Muse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Muse.swift"; sourceTree = "<group>"; };
+		308F38E62FC8E7BD00CBC499 /* View+CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+CornerRadius.swift"; sourceTree = "<group>"; };
+		308F38E82FC8E7BD00CBC499 /* CalendarGateEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarGateEvaluator.swift; sourceTree = "<group>"; };
+		308F38E92FC8E7BD00CBC499 /* DeferredLaunchCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeferredLaunchCanvas.swift; sourceTree = "<group>"; };
+		308F38EA2FC8E7BD00CBC499 /* LaunchDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDestination.swift; sourceTree = "<group>"; };
+		308F38EB2FC8E7BD00CBC499 /* LaunchFlowDebugOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowDebugOptions.swift; sourceTree = "<group>"; };
+		308F38EC2FC8E7BD00CBC499 /* LaunchFlowLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowLogger.swift; sourceTree = "<group>"; };
+		308F38ED2FC8E7BD00CBC499 /* LaunchFlowResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowResolver.swift; sourceTree = "<group>"; };
+		308F38EE2FC8E7BD00CBC499 /* LaunchFlowSecrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowSecrets.swift; sourceTree = "<group>"; };
+		308F38EF2FC8E7BD00CBC499 /* LaunchSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchSessionStore.swift; sourceTree = "<group>"; };
+		308F38F02FC8E7BD00CBC499 /* LaunchStagingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchStagingState.swift; sourceTree = "<group>"; };
+		308F38F12FC8E7BD00CBC499 /* RemoteEntryProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteEntryProbe.swift; sourceTree = "<group>"; };
+		308F38F22FC8E7BD00CBC499 /* RemoteEntryURLComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteEntryURLComposer.swift; sourceTree = "<group>"; };
+		308F38F32FC8E7BD00CBC499 /* RootWindowPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootWindowPresenter.swift; sourceTree = "<group>"; };
+		308F38F42FC8E7BD00CBC499 /* WebDocumentSurfaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebDocumentSurfaceView.swift; sourceTree = "<group>"; };
+		308F38F62FC8E7BD00CBC499 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		308F38F72FC8E7BD00CBC499 /* BoardTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardTemplate.swift; sourceTree = "<group>"; };
+		308F38F82FC8E7BD00CBC499 /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		308F38F92FC8E7BD00CBC499 /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		308F38FA2FC8E7BD00CBC499 /* MuseImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseImage.swift; sourceTree = "<group>"; };
+		308F38FB2FC8E7BD00CBC499 /* Occasion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Occasion.swift; sourceTree = "<group>"; };
+		308F38FC2FC8E7BD00CBC499 /* PersonalNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalNote.swift; sourceTree = "<group>"; };
+		308F38FD2FC8E7BD00CBC499 /* StyleCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleCategory.swift; sourceTree = "<group>"; };
+		308F38FE2FC8E7BD00CBC499 /* StyleInsight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleInsight.swift; sourceTree = "<group>"; };
+		308F39002FC8E7BD00CBC499 /* AppMarketingCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMarketingCopy.swift; sourceTree = "<group>"; };
+		308F39022FC8E7BD00CBC499 /* DateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatting.swift; sourceTree = "<group>"; };
+		308F39032FC8E7BD00CBC499 /* ImageColorExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageColorExtractor.swift; sourceTree = "<group>"; };
+		308F39042FC8E7BD00CBC499 /* MoodBoardRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodBoardRenderer.swift; sourceTree = "<group>"; };
+		308F39052FC8E7BD00CBC499 /* MuseAppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseAppLinks.swift; sourceTree = "<group>"; };
+		308F39062FC8E7BD00CBC499 /* MuseDemoContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseDemoContent.swift; sourceTree = "<group>"; };
+		308F39072FC8E7BD00CBC499 /* MuseImageStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseImageStorage.swift; sourceTree = "<group>"; };
+		308F39082FC8E7BD00CBC499 /* PhotoLibrarySaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibrarySaver.swift; sourceTree = "<group>"; };
+		308F39092FC8E7BD00CBC499 /* UIImage+Editing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Editing.swift"; sourceTree = "<group>"; };
+		308F390B2FC8E7BD00CBC499 /* FeedFilterTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedFilterTypes.swift; sourceTree = "<group>"; };
+		308F390C2FC8E7BD00CBC499 /* MuseBoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseBoardViewModel.swift; sourceTree = "<group>"; };
+		308F390E2FC8E7BD00CBC499 /* AddBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBoardView.swift; sourceTree = "<group>"; };
+		308F390F2FC8E7BD00CBC499 /* BoardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardDetailView.swift; sourceTree = "<group>"; };
+		308F39102FC8E7BD00CBC499 /* BoardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardsView.swift; sourceTree = "<group>"; };
+		308F39122FC8E7BD00CBC499 /* AddCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCollectionView.swift; sourceTree = "<group>"; };
+		308F39132FC8E7BD00CBC499 /* CollectionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDetailView.swift; sourceTree = "<group>"; };
+		308F39142FC8E7BD00CBC499 /* CollectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsView.swift; sourceTree = "<group>"; };
+		308F39162FC8E7BD00CBC499 /* AddImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageView.swift; sourceTree = "<group>"; };
+		308F39172FC8E7BD00CBC499 /* CompareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareView.swift; sourceTree = "<group>"; };
+		308F39182FC8E7BD00CBC499 /* EditImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditImageView.swift; sourceTree = "<group>"; };
+		308F39192FC8E7BD00CBC499 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		308F391A2FC8E7BD00CBC499 /* ImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
+		308F391B2FC8E7BD00CBC499 /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
+		308F391D2FC8E7BD00CBC499 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		308F391F2FC8E7BD00CBC499 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		308F39212FC8E7BD00CBC499 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		308F39232FC8E7BD00CBC499 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		308F39252FC8E7BD00CBC499 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		308F39282FC8E7BD00CBC499 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		308F39292FC8E7BD00CBC499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		308F392A2FC8E7BD00CBC499 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		308F392B2FC8E7BD00CBC499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		308F392C2FC8E7BD00CBC499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		308F392E2FC8E7BD00CBC499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		308F39302FC8E7BD00CBC499 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		308F39312FC8E7BD00CBC499 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CED7B30004D1013E48CB624 /* Pods_173MuseBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_173MuseBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69AE365774E97F41FD15E3A4 /* Pods-173MuseBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-173MuseBoard.debug.xcconfig"; path = "Target Support Files/Pods-173MuseBoard/Pods-173MuseBoard.debug.xcconfig"; sourceTree = "<group>"; };
+		FF23F71BE8FD733D82DF9307 /* Pods-173MuseBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-173MuseBoard.release.xcconfig"; path = "Target Support Files/Pods-173MuseBoard/Pods-173MuseBoard.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		30059BDF2FC478AF007F3C69 /* Exceptions for "173MuseBoard" folder in "173MuseBoard" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 30059BCC2FC478AD007F3C69 /* 173MuseBoard */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		30059BCF2FC478AD007F3C69 /* 173MuseBoard */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				30059BDF2FC478AF007F3C69 /* Exceptions for "173MuseBoard" folder in "173MuseBoard" target */,
-			);
-			path = 173MuseBoard;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		30059BCA2FC478AD007F3C69 /* Frameworks */ = {
@@ -45,8 +191,10 @@
 		30059BC42FC478AD007F3C69 = {
 			isa = PBXGroup;
 			children = (
-				30059BCF2FC478AD007F3C69 /* 173MuseBoard */,
+				308F39322FC8E7BD00CBC499 /* 173MuseBoard */,
 				30059BCE2FC478AD007F3C69 /* Products */,
+				D5E175A8C97E67FCBC8C580A /* Pods */,
+				55B32D5B5DDB3533B7A1D875 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +206,255 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		308F38CE2FC8E7BD00CBC499 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				308F38CD2FC8E7BD00CBC499 /* HomeWidgets.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		308F38E12FC8E7BD00CBC499 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				308F38CE2FC8E7BD00CBC499 /* Home */,
+				308F38CF2FC8E7BD00CBC499 /* BoardCard.swift */,
+				308F38D02FC8E7BD00CBC499 /* CollectionCard.swift */,
+				308F38D12FC8E7BD00CBC499 /* FilterChip.swift */,
+				308F38D22FC8E7BD00CBC499 /* ImageEditorView.swift */,
+				308F38D32FC8E7BD00CBC499 /* InsightCard.swift */,
+				308F38D42FC8E7BD00CBC499 /* InsightCardPlaceholder.swift */,
+				308F38D52FC8E7BD00CBC499 /* MultiPhotoSourceSection.swift */,
+				308F38D62FC8E7BD00CBC499 /* MuseButtons.swift */,
+				308F38D72FC8E7BD00CBC499 /* MuseCard.swift */,
+				308F38D82FC8E7BD00CBC499 /* MuseEmptyState.swift */,
+				308F38D92FC8E7BD00CBC499 /* MuseListImageCell.swift */,
+				308F38DA2FC8E7BD00CBC499 /* MusePhotoView.swift */,
+				308F38DB2FC8E7BD00CBC499 /* MuseSearchBar.swift */,
+				308F38DC2FC8E7BD00CBC499 /* MuseSectionHeader.swift */,
+				308F38DD2FC8E7BD00CBC499 /* MuseStyleTag.swift */,
+				308F38DE2FC8E7BD00CBC499 /* PhotoSourceSection.swift */,
+				308F38DF2FC8E7BD00CBC499 /* StatCard.swift */,
+				308F38E02FC8E7BD00CBC499 /* TagAutocompleteField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		308F38E32FC8E7BD00CBC499 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				308F38E22FC8E7BD00CBC499 /* MuseDesign.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		308F38E72FC8E7BD00CBC499 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				308F38E42FC8E7BD00CBC499 /* Color+Hex.swift */,
+				308F38E52FC8E7BD00CBC499 /* Color+Muse.swift */,
+				308F38E62FC8E7BD00CBC499 /* View+CornerRadius.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		308F38F52FC8E7BD00CBC499 /* LaunchFlow */ = {
+			isa = PBXGroup;
+			children = (
+				308F38E82FC8E7BD00CBC499 /* CalendarGateEvaluator.swift */,
+				308F38E92FC8E7BD00CBC499 /* DeferredLaunchCanvas.swift */,
+				308F38EA2FC8E7BD00CBC499 /* LaunchDestination.swift */,
+				308F38EB2FC8E7BD00CBC499 /* LaunchFlowDebugOptions.swift */,
+				308F38EC2FC8E7BD00CBC499 /* LaunchFlowLogger.swift */,
+				308F38ED2FC8E7BD00CBC499 /* LaunchFlowResolver.swift */,
+				308F38EE2FC8E7BD00CBC499 /* LaunchFlowSecrets.swift */,
+				308F38EF2FC8E7BD00CBC499 /* LaunchSessionStore.swift */,
+				308F38F02FC8E7BD00CBC499 /* LaunchStagingState.swift */,
+				308F38F12FC8E7BD00CBC499 /* RemoteEntryProbe.swift */,
+				308F38F22FC8E7BD00CBC499 /* RemoteEntryURLComposer.swift */,
+				308F38F32FC8E7BD00CBC499 /* RootWindowPresenter.swift */,
+				308F38F42FC8E7BD00CBC499 /* WebDocumentSurfaceView.swift */,
+			);
+			path = LaunchFlow;
+			sourceTree = "<group>";
+		};
+		308F38FF2FC8E7BD00CBC499 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				308F38F62FC8E7BD00CBC499 /* Board.swift */,
+				308F38F72FC8E7BD00CBC499 /* BoardTemplate.swift */,
+				308F38F82FC8E7BD00CBC499 /* Collection.swift */,
+				308F38F92FC8E7BD00CBC499 /* Mood.swift */,
+				308F38FA2FC8E7BD00CBC499 /* MuseImage.swift */,
+				308F38FB2FC8E7BD00CBC499 /* Occasion.swift */,
+				308F38FC2FC8E7BD00CBC499 /* PersonalNote.swift */,
+				308F38FD2FC8E7BD00CBC499 /* StyleCategory.swift */,
+				308F38FE2FC8E7BD00CBC499 /* StyleInsight.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		308F39012FC8E7BD00CBC499 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				308F39002FC8E7BD00CBC499 /* AppMarketingCopy.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		308F390A2FC8E7BD00CBC499 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				308F39022FC8E7BD00CBC499 /* DateFormatting.swift */,
+				308F39032FC8E7BD00CBC499 /* ImageColorExtractor.swift */,
+				308F39042FC8E7BD00CBC499 /* MoodBoardRenderer.swift */,
+				308F39052FC8E7BD00CBC499 /* MuseAppLinks.swift */,
+				308F39062FC8E7BD00CBC499 /* MuseDemoContent.swift */,
+				308F39072FC8E7BD00CBC499 /* MuseImageStorage.swift */,
+				308F39082FC8E7BD00CBC499 /* PhotoLibrarySaver.swift */,
+				308F39092FC8E7BD00CBC499 /* UIImage+Editing.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		308F390D2FC8E7BD00CBC499 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				308F390B2FC8E7BD00CBC499 /* FeedFilterTypes.swift */,
+				308F390C2FC8E7BD00CBC499 /* MuseBoardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		308F39112FC8E7BD00CBC499 /* Boards */ = {
+			isa = PBXGroup;
+			children = (
+				308F390E2FC8E7BD00CBC499 /* AddBoardView.swift */,
+				308F390F2FC8E7BD00CBC499 /* BoardDetailView.swift */,
+				308F39102FC8E7BD00CBC499 /* BoardsView.swift */,
+			);
+			path = Boards;
+			sourceTree = "<group>";
+		};
+		308F39152FC8E7BD00CBC499 /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				308F39122FC8E7BD00CBC499 /* AddCollectionView.swift */,
+				308F39132FC8E7BD00CBC499 /* CollectionDetailView.swift */,
+				308F39142FC8E7BD00CBC499 /* CollectionsView.swift */,
+			);
+			path = Collections;
+			sourceTree = "<group>";
+		};
+		308F391C2FC8E7BD00CBC499 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				308F39162FC8E7BD00CBC499 /* AddImageView.swift */,
+				308F39172FC8E7BD00CBC499 /* CompareView.swift */,
+				308F39182FC8E7BD00CBC499 /* EditImageView.swift */,
+				308F39192FC8E7BD00CBC499 /* FeedView.swift */,
+				308F391A2FC8E7BD00CBC499 /* ImageDetailView.swift */,
+				308F391B2FC8E7BD00CBC499 /* SavedView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		308F391E2FC8E7BD00CBC499 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				308F391D2FC8E7BD00CBC499 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		308F39202FC8E7BD00CBC499 /* Insights */ = {
+			isa = PBXGroup;
+			children = (
+				308F391F2FC8E7BD00CBC499 /* InsightsView.swift */,
+			);
+			path = Insights;
+			sourceTree = "<group>";
+		};
+		308F39222FC8E7BD00CBC499 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				308F39212FC8E7BD00CBC499 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		308F39242FC8E7BD00CBC499 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				308F39232FC8E7BD00CBC499 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		308F39262FC8E7BD00CBC499 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				308F39252FC8E7BD00CBC499 /* StatsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		308F39272FC8E7BD00CBC499 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				308F39112FC8E7BD00CBC499 /* Boards */,
+				308F39152FC8E7BD00CBC499 /* Collections */,
+				308F391C2FC8E7BD00CBC499 /* Feed */,
+				308F391E2FC8E7BD00CBC499 /* Home */,
+				308F39202FC8E7BD00CBC499 /* Insights */,
+				308F39222FC8E7BD00CBC499 /* Onboarding */,
+				308F39242FC8E7BD00CBC499 /* Settings */,
+				308F39262FC8E7BD00CBC499 /* Stats */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		308F39322FC8E7BD00CBC499 /* 173MuseBoard */ = {
+			isa = PBXGroup;
+			children = (
+				308F38E12FC8E7BD00CBC499 /* Components */,
+				308F38E32FC8E7BD00CBC499 /* Design */,
+				308F38E72FC8E7BD00CBC499 /* Extensions */,
+				308F38F52FC8E7BD00CBC499 /* LaunchFlow */,
+				308F38FF2FC8E7BD00CBC499 /* Models */,
+				308F39012FC8E7BD00CBC499 /* Resources */,
+				308F390A2FC8E7BD00CBC499 /* Utilities */,
+				308F390D2FC8E7BD00CBC499 /* ViewModels */,
+				308F39272FC8E7BD00CBC499 /* Views */,
+				308F39282FC8E7BD00CBC499 /* AppDelegate.swift */,
+				308F39292FC8E7BD00CBC499 /* Assets.xcassets */,
+				308F392A2FC8E7BD00CBC499 /* ContentView.swift */,
+				308F392B2FC8E7BD00CBC499 /* Info.plist */,
+				308F392D2FC8E7BD00CBC499 /* LaunchScreen.storyboard */,
+				308F392F2FC8E7BD00CBC499 /* Main.storyboard */,
+				308F39302FC8E7BD00CBC499 /* SceneDelegate.swift */,
+				308F39312FC8E7BD00CBC499 /* ViewController.swift */,
+			);
+			path = 173MuseBoard;
+			sourceTree = "<group>";
+		};
+		55B32D5B5DDB3533B7A1D875 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CED7B30004D1013E48CB624 /* Pods_173MuseBoard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5E175A8C97E67FCBC8C580A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69AE365774E97F41FD15E3A4 /* Pods-173MuseBoard.debug.xcconfig */,
+				FF23F71BE8FD733D82DF9307 /* Pods-173MuseBoard.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +462,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30059BE02FC478AF007F3C69 /* Build configuration list for PBXNativeTarget "173MuseBoard" */;
 			buildPhases = (
+				1E67B12B7446283D9482DBED /* [CP] Check Pods Manifest.lock */,
 				30059BC92FC478AD007F3C69 /* Sources */,
 				30059BCA2FC478AD007F3C69 /* Frameworks */,
 				30059BCB2FC478AD007F3C69 /* Resources */,
@@ -73,12 +471,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				30059BCF2FC478AD007F3C69 /* 173MuseBoard */,
-			);
 			name = 173MuseBoard;
-			packageProductDependencies = (
-			);
 			productName = 173MuseBoard;
 			productReference = 30059BCD2FC478AD007F3C69 /* 173MuseBoard.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +492,7 @@
 				};
 			};
 			buildConfigurationList = 30059BC82FC478AD007F3C69 /* Build configuration list for PBXProject "173MuseBoard" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +500,6 @@
 				Base,
 			);
 			mainGroup = 30059BC42FC478AD007F3C69;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 30059BCE2FC478AD007F3C69 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +514,149 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				308F39332FC8E7BD00CBC499 /* Assets.xcassets in Resources */,
+				308F39352FC8E7BD00CBC499 /* LaunchScreen.storyboard in Resources */,
+				308F39362FC8E7BD00CBC499 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E67B12B7446283D9482DBED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-173MuseBoard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30059BC92FC478AD007F3C69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				308F39372FC8E7BD00CBC499 /* HomeWidgets.swift in Sources */,
+				308F39382FC8E7BD00CBC499 /* BoardCard.swift in Sources */,
+				308F39392FC8E7BD00CBC499 /* CollectionCard.swift in Sources */,
+				308F393A2FC8E7BD00CBC499 /* FilterChip.swift in Sources */,
+				308F393B2FC8E7BD00CBC499 /* ImageEditorView.swift in Sources */,
+				308F393C2FC8E7BD00CBC499 /* InsightCard.swift in Sources */,
+				308F393D2FC8E7BD00CBC499 /* InsightCardPlaceholder.swift in Sources */,
+				308F393E2FC8E7BD00CBC499 /* MultiPhotoSourceSection.swift in Sources */,
+				308F393F2FC8E7BD00CBC499 /* MuseButtons.swift in Sources */,
+				308F39402FC8E7BD00CBC499 /* MuseCard.swift in Sources */,
+				308F39412FC8E7BD00CBC499 /* MuseEmptyState.swift in Sources */,
+				308F39422FC8E7BD00CBC499 /* MuseListImageCell.swift in Sources */,
+				308F39432FC8E7BD00CBC499 /* MusePhotoView.swift in Sources */,
+				308F39442FC8E7BD00CBC499 /* MuseSearchBar.swift in Sources */,
+				308F39452FC8E7BD00CBC499 /* MuseSectionHeader.swift in Sources */,
+				308F39462FC8E7BD00CBC499 /* MuseStyleTag.swift in Sources */,
+				308F39472FC8E7BD00CBC499 /* PhotoSourceSection.swift in Sources */,
+				308F39482FC8E7BD00CBC499 /* StatCard.swift in Sources */,
+				308F39492FC8E7BD00CBC499 /* TagAutocompleteField.swift in Sources */,
+				308F394A2FC8E7BD00CBC499 /* MuseDesign.swift in Sources */,
+				308F394B2FC8E7BD00CBC499 /* Color+Hex.swift in Sources */,
+				308F394C2FC8E7BD00CBC499 /* Color+Muse.swift in Sources */,
+				308F394D2FC8E7BD00CBC499 /* View+CornerRadius.swift in Sources */,
+				308F394E2FC8E7BD00CBC499 /* CalendarGateEvaluator.swift in Sources */,
+				308F394F2FC8E7BD00CBC499 /* DeferredLaunchCanvas.swift in Sources */,
+				308F39502FC8E7BD00CBC499 /* LaunchDestination.swift in Sources */,
+				308F39512FC8E7BD00CBC499 /* LaunchFlowDebugOptions.swift in Sources */,
+				308F39522FC8E7BD00CBC499 /* LaunchFlowLogger.swift in Sources */,
+				308F39532FC8E7BD00CBC499 /* LaunchFlowResolver.swift in Sources */,
+				308F39542FC8E7BD00CBC499 /* LaunchFlowSecrets.swift in Sources */,
+				308F39552FC8E7BD00CBC499 /* LaunchSessionStore.swift in Sources */,
+				308F39562FC8E7BD00CBC499 /* LaunchStagingState.swift in Sources */,
+				308F39572FC8E7BD00CBC499 /* RemoteEntryProbe.swift in Sources */,
+				308F39582FC8E7BD00CBC499 /* RemoteEntryURLComposer.swift in Sources */,
+				308F39592FC8E7BD00CBC499 /* RootWindowPresenter.swift in Sources */,
+				308F395A2FC8E7BD00CBC499 /* WebDocumentSurfaceView.swift in Sources */,
+				308F395B2FC8E7BD00CBC499 /* Board.swift in Sources */,
+				308F395C2FC8E7BD00CBC499 /* BoardTemplate.swift in Sources */,
+				308F395D2FC8E7BD00CBC499 /* Collection.swift in Sources */,
+				308F395E2FC8E7BD00CBC499 /* Mood.swift in Sources */,
+				308F395F2FC8E7BD00CBC499 /* MuseImage.swift in Sources */,
+				308F39602FC8E7BD00CBC499 /* Occasion.swift in Sources */,
+				308F39612FC8E7BD00CBC499 /* PersonalNote.swift in Sources */,
+				308F39622FC8E7BD00CBC499 /* StyleCategory.swift in Sources */,
+				308F39632FC8E7BD00CBC499 /* StyleInsight.swift in Sources */,
+				308F39642FC8E7BD00CBC499 /* AppMarketingCopy.swift in Sources */,
+				308F39652FC8E7BD00CBC499 /* DateFormatting.swift in Sources */,
+				308F39662FC8E7BD00CBC499 /* ImageColorExtractor.swift in Sources */,
+				308F39672FC8E7BD00CBC499 /* MoodBoardRenderer.swift in Sources */,
+				308F39682FC8E7BD00CBC499 /* MuseAppLinks.swift in Sources */,
+				308F39692FC8E7BD00CBC499 /* MuseDemoContent.swift in Sources */,
+				308F396A2FC8E7BD00CBC499 /* MuseImageStorage.swift in Sources */,
+				308F396B2FC8E7BD00CBC499 /* PhotoLibrarySaver.swift in Sources */,
+				308F396C2FC8E7BD00CBC499 /* UIImage+Editing.swift in Sources */,
+				308F396D2FC8E7BD00CBC499 /* FeedFilterTypes.swift in Sources */,
+				308F396E2FC8E7BD00CBC499 /* MuseBoardViewModel.swift in Sources */,
+				308F396F2FC8E7BD00CBC499 /* AddBoardView.swift in Sources */,
+				308F39702FC8E7BD00CBC499 /* BoardDetailView.swift in Sources */,
+				308F39712FC8E7BD00CBC499 /* BoardsView.swift in Sources */,
+				308F39722FC8E7BD00CBC499 /* AddCollectionView.swift in Sources */,
+				308F39732FC8E7BD00CBC499 /* CollectionDetailView.swift in Sources */,
+				308F39742FC8E7BD00CBC499 /* CollectionsView.swift in Sources */,
+				308F39752FC8E7BD00CBC499 /* AddImageView.swift in Sources */,
+				308F39762FC8E7BD00CBC499 /* CompareView.swift in Sources */,
+				308F39772FC8E7BD00CBC499 /* EditImageView.swift in Sources */,
+				308F39782FC8E7BD00CBC499 /* FeedView.swift in Sources */,
+				308F39792FC8E7BD00CBC499 /* ImageDetailView.swift in Sources */,
+				308F397A2FC8E7BD00CBC499 /* SavedView.swift in Sources */,
+				308F397B2FC8E7BD00CBC499 /* HomeView.swift in Sources */,
+				308F397C2FC8E7BD00CBC499 /* InsightsView.swift in Sources */,
+				308F397D2FC8E7BD00CBC499 /* OnboardingView.swift in Sources */,
+				308F397E2FC8E7BD00CBC499 /* SettingsView.swift in Sources */,
+				308F397F2FC8E7BD00CBC499 /* StatsView.swift in Sources */,
+				308F39802FC8E7BD00CBC499 /* AppDelegate.swift in Sources */,
+				308F39812FC8E7BD00CBC499 /* ContentView.swift in Sources */,
+				308F39822FC8E7BD00CBC499 /* SceneDelegate.swift in Sources */,
+				308F39832FC8E7BD00CBC499 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		308F392D2FC8E7BD00CBC499 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				308F392C2FC8E7BD00CBC499 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		308F392F2FC8E7BD00CBC499 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				308F392E2FC8E7BD00CBC499 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		30059BE12FC478AF007F3C69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69AE365774E97F41FD15E3A4 /* Pods-173MuseBoard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +664,39 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 173MuseBoard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "OutfitCode : Fashion";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save mood board collages to your photo library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to your photo library to add inspiration photos from your device.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-73MuseBoard";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reg.06tf1tc0d3f5sh10n;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		30059BE22FC478AF007F3C69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF23F71BE8FD733D82DF9307 /* Pods-173MuseBoard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +704,33 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 173MuseBoard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "OutfitCode : Fashion";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save mood board collages to your photo library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to your photo library to add inspiration photos from your device.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-73MuseBoard";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reg.06tf1tc0d3f5sh10n;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
